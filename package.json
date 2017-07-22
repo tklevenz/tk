@@ -1,0 +1,16 @@
+{
+  "name": "tk",
+  "version": "1.0.0",
+  "description": "tk wordpress theme",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o dist scss"
+  },
+  "author": "Tobias Klevenz",
+  "license": "MIT"
+}

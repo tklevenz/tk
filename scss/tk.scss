@@ -234,3 +234,9 @@ main {
         flex: 0 0 100%;
     }
 }
+
+@media (max-width: 839px) and (min-width: 480px) {
+    .front-page .mdc-layout-grid__inner {
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    } 
+}

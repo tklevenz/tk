@@ -63,7 +63,7 @@
 <script>
 	window.mdc.autoInit();
 
-	let menu = new mdc.menu.MDCSimpleMenu(document.querySelector('.mdc-simple-menu'));
+	let menu = new mdc.menu.MDCMenu(document.querySelector('.mdc-menu'));
 	document.querySelector('.mobile-menu-button').addEventListener('click', () => menu.open = !menu.open);
 
 	var floaty = document.querySelector('.floaty');

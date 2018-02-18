@@ -2,11 +2,9 @@
   "name": "tk",
   "version": "1.0.0",
   "description": "tk wordpress theme",
-  "dependencies": {
-    "node-sass": "^4.5.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.7.2"
   },
   "scripts": {
     "scss": "node-sass --output-style compressed -o dist scss"

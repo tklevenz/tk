@@ -42,9 +42,9 @@
 
 				<img class="mobile-menu-button" src="<?php echo get_template_directory_uri() ?>/images/ic_menu_white_24px.svg"/>
 
-				<div class="mdc-simple-menu mdc-simple-menu--theme-dark" tabindex="-1">
-					<ul class="mdc-simple-menu__items mdc-list" role="menu" aria-hidden="true">
-					<?php
+				<div class="mdc-menu mdc-menu--theme-dark" tabindex="-1">
+				  <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
+				    <?php
 						foreach (wp_get_nav_menu_items('menu-1') as $item) {
 						?>
 							<li class="mdc-list-item" role="menuitem" tabindex="0">
@@ -53,7 +53,7 @@
 						<?php
 						}
 					?>
-					 </ul>
+				  </ul>
 				</div>
     		</section>
 			

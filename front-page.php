@@ -43,7 +43,7 @@ get_header(); ?>
 							?>
 								<div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
 									<a href="<?php echo $link; ?>">
-							          	<div class="card-about mdc-card" style="background-image: url( <?php echo $image_url ?>)">
+							          	<div class="card-about mdc-card"  style="background-image: url( <?php echo $image_url ?>)">
 							            	<section class="mdc-card__primary">
 							              		<h1 class="mdc-card__title mdc-card__title--large"><?php echo $title; ?></h1>
 							            	</section>

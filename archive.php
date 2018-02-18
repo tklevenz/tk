@@ -39,8 +39,8 @@ get_header(); ?>
 		            <div class="mdc-card" <?php if($image_url != ""): ?>style="background-image: url( <?php echo $image_url ?>)"<?php endif; ?>>
 		              	<section class="mdc-card__primary">
 		              		<?php the_title('<h1 class="mdc-card__title mdc-card__title--large">','</h1>') ?>
-		                	<h2 class="mdc-card__subtitle"><?php the_excerpt() ?></h2>
 	              		</section>
+	              		<section class="mdc-card__supporting-text"><?php the_excerpt() ?></section>
 		            </div>
 		            </a>
 		        </div>

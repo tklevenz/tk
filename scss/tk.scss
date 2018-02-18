@@ -89,18 +89,17 @@ main {
 .archive-page {
     .mdc-card {
         height: 350px;
+        h1 {
+          margin: 0;
+        }
     }
     .page-header {
         width: 100%;
         padding: 0 14px;
         margin-bottom: 1em;
     }
-    .mdc-card__primary {
-        margin-bottom: 0px;
-        padding-bottom: 16px;
-    }
-    .mdc-card__subtitle p {
-        margin-bottom: 8px;
+    .mdc-card__supporting-text p {
+        margin: 0;
     }
 }
 
@@ -111,6 +110,10 @@ main {
     }
     section {
         background: rgba(0, 0, 0, .4);
+        padding: 1em;
+    }
+    .mdc-card__supporting-text {
+      margin-top: auto;
     }
 }
 
